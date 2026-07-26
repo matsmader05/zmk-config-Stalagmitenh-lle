@@ -26,7 +26,7 @@
     pinctrl-names = "default", "sleep";
 
     /* 106 -> Port 1, Pin 6 (RCLK / Latch) */
-    cs-gpios = <&gpio1 6 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&gpio1 6 GPIO_ACTIVE_LOW>;
 
     shifter: gpio595@0 {
         compatible = "zmk,gpio-595";

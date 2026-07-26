@@ -94,24 +94,24 @@
         ;
 
         // Use the SPI shifter outputs (0 through 15)
-        col-gpios
-            = <&gpio0 29 (GPIO_ACTIVE_HIGH)>
-            , <&gpio0 2  (GPIO_ACTIVE_HIGH)>
-            , <&gpio1 15 (GPIO_ACTIVE_HIGH)>
-            , <&gpio1 11 (GPIO_ACTIVE_HIGH)>
-            , <&gpio0 10 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 4 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 3 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 2 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 1 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 0 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 14 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 13 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 12 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 11 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 10 (GPIO_ACTIVE_HIGH)>
+           col-gpios
+            = <&shifter 8 (GPIO_ACTIVE_HIGH)>
             , <&shifter 9 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 8 (GPIO_ACTIVE_HIGH)>
-    ;
+            , <&shifter 10 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 11 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 12 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 13 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 14 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 0 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 1 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 2 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 3 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 4 (GPIO_ACTIVE_HIGH)>
+            , <&gpio0 10 (GPIO_ACTIVE_HIGH)>
+            , <&gpio1 11 (GPIO_ACTIVE_HIGH)>
+            , <&gpio1 15 (GPIO_ACTIVE_HIGH)>
+            , <&gpio0 2 (GPIO_ACTIVE_HIGH)>
+            , <&gpio0 29 (GPIO_ACTIVE_HIGH)>
+        ;
     };
 };
